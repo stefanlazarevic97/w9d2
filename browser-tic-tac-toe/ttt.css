@@ -1,1 +1,21 @@
-/* Your code here */
+ul {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border: 2px solid grey;
+    padding-left: 0;
+}
+
+li {
+    padding: 4px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid grey; 
+    background-color: lightgray;
+}
+
+li:hover {
+    background-color: yellow;
+}

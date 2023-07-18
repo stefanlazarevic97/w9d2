@@ -1,0 +1,17 @@
+{
+  "name": "browser-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Browser version of tic-tac-toe!",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack --watch --mode=development"
+  },
+  "keywords": [],
+  "author": "Dominic Chan & Stefan Lazarevic",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
