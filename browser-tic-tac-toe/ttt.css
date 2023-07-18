@@ -14,8 +14,44 @@ li {
     width: 90px;
     border: 1px solid grey; 
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 li:hover {
     background-color: yellow;
+}
+
+.o, .x {
+    background-color: white;
+    cursor: default;
+}
+ 
+.x:after {
+    content: "X";
+}
+
+.o:after {
+    content: "O";
+}
+
+.x:after, .o:after {
+    font-size: 36px;
+}
+
+figcaption {
+    font-size: 36px;
+}
+
+.game-over li {
+    color: red
+    cursor: default;
+    background-color: white;
+}
+
+.winner-x .x, .winner-o .o {
+    background-color: lightgreen;
+    color: black;
 }
